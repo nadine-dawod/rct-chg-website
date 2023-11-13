@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Roboto:wght@300&display=swap");
+.Footer {
+  background-color: rgba(255, 255, 150, 0.5);
+  height: 100px;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    max-height: 350px;
+    height: 100%;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Icon-List {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
 }
+@media (max-width: 600px) {
+  .Icon-List {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.Footer-Title {
+  font-size: 30px;
+  color: rgb(250, 140, 140);
+  font-variant: small-caps;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+}
+
+.Icon-Link {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 25px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.Header {
+  background-color: rgba(255, 255, 150, 0.5);
+  height: 100px;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .Header {
+    display: flex;
+    flex-direction: column;
+    height: 175px;
+  }
+}
+
+.Nav-List {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 600px) {
+  .Nav-List {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.Header-Title {
+  font-size: 30px;
+  color: rgb(250, 140, 140);
+  font-variant: small-caps;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+}
+
+.Nav-Link a {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 25px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.Nav-Link a:hover {
+  background-color: rgb(250, 250, 250);
+  font-size: 35px;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
