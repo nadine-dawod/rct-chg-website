@@ -2,10 +2,10 @@
 
 // HEADER AND FOOTER //
 
-    //Color of header and footer
+    // Color of header and footer
     $headfoot-color: rgb(300,300,150,0.5);
 
-    //Use for links in header and footer
+    // Use for links in header and footer
     @mixin headerfooter-links {
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 400;
@@ -13,21 +13,34 @@
         font-size: 25px;
     }
 
-    //Use for logo in header and footer
+    // Use for logo in header and footer
     @mixin logo {
         font-size: 30px;
         color: rgb(250,140,140);
         font-variant: small-caps;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 200;
+        margin: 0;
+        margin-bottom: 10px;
 }
 
 // PAGE BODIES //
 
-    //Use for regular body text
+    // Use for regular body text
     @mixin body-text {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
+        font-size: 20px;
+        margin: 20px;
+        text-align: justify;
     }
 
+    // Use for headers in body
+    @mixin body-header {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        font-variant: small-caps;
+        margin-bottom: 0;
+    }
 
