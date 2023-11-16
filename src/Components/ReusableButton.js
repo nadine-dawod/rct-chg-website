@@ -8,8 +8,9 @@ you application. Depending on how you
   */
 
 
-  const ReusableButton = ({children}) => {
-    return <button className="ReusableBtn">{children}</button>
+const ReusableButton = ({children, handleClick}) => {
+    return <button className="ReusableBtn" onClick={handleClick}>{children}</button>
   };
+
 
   export default ReusableButton;

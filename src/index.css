@@ -103,40 +103,6 @@
   cursor: pointer;
 }
 
-.PageBodies {
-  background-color: rgba(255, 255, 150, 0.3);
-  max-width: 1200px;
-  width: 100%;
-  min-height: 250px;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-@media (max-width: 600px) {
-  .PageBodies {
-    max-width: 600px;
-    height: 100%;
-  }
-}
-
-.PagePara {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  margin: 20px;
-  text-align: justify;
-}
-
-.PageHeader {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 400;
-  font-size: 25px;
-  font-variant: small-caps;
-  margin-bottom: 0;
-}
-
 .ProfilePicture {
   padding-top: 10px;
   width: 150px;
@@ -172,4 +138,95 @@
   font-size: 15px;
   text-align: justify;
   padding: 5px;
+}
+
+.PageTitle {
+  font-size: 50px;
+  color: rgb(250, 140, 140);
+  font-variant: small-caps;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.offer-container {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 600px) {
+  .offer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offer-box {
+  max-width: 250px;
+  width: 100%;
+  border: 3px solid rgb(250, 140, 140);
+  margin-bottom: 10px;
+}
+
+.PageBodies {
+  background-color: rgba(255, 255, 150, 0.3);
+  max-width: 1200px;
+  width: 100%;
+  min-height: 250px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .PageBodies {
+    max-width: 600px;
+    height: 100%;
+  }
+}
+
+.PagePara {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 20px;
+  text-align: justify;
+}
+
+.PageHeader {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  font-variant: small-caps;
+  margin-bottom: 0;
+}
+
+.ReusableBtn {
+  height: 50px;
+  width: 90px;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: rgb(250, 250, 250);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 10px;
+  border-style: hidden;
+}
+
+.ReusableBtn:hover {
+  cursor: pointer;
+  border-color: rgba(0, 0, 0, 0.1);
+  background-color: rgb(250, 250, 250);
 }/*# sourceMappingURL=index.css.map */

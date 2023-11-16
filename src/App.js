@@ -1,6 +1,6 @@
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import About from "./Components/About";
+import Home from "./Components/Home";
 
 
 function App() {
@@ -8,9 +8,7 @@ function App() {
     <div>
 
     <Header></Header>
-
-    <About></About>
-
+    <Home></Home>
     <Footer></Footer>
 
 
