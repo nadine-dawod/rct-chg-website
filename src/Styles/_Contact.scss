@@ -1,0 +1,67 @@
+@import 'Fonts';
+
+.ContactForm {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Form {
+    max-width: 350px;
+    width: 100%;
+    height: 40px;
+}
+.Form:hover {
+    cursor:pointer;
+}
+.Form::placeholder, .message::placeholder  {
+    @include  body-text
+
+}
+
+input {
+    border: 2px solid rgb(250,140,140);
+}
+
+.message {
+    max-width: 350px;
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgb(250,140,140);
+}
+
+
+
+// Message area //
+
+
+// Checkbox for terms & condition //
+.Check-Terms {
+    @include body-text
+}
+
+#check {
+    width: 30px;
+    height: 30px;
+}
+
+.tic-box {
+    height: 75px;
+    max-width: 350px;
+    width: 100%;
+    padding: 5px;
+}
+
+.Link-Terms {
+    color: black;
+}
+.Link-Terms:hover {
+    cursor: pointer;
+    font-size: 25px;
+    background-color: rgb(250,250,250);
+    
+}

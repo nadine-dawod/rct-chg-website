@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Roboto:wght@300&display=swap");
 .Footer {
   background-color: rgba(255, 255, 150, 0.5);
   height: 100px;
@@ -170,7 +171,7 @@
 }
 
 .offer-box {
-  max-width: 250px;
+  max-width: 220px;
   width: 100%;
   border: 3px solid rgb(250, 140, 140);
   margin-bottom: 10px;
@@ -199,7 +200,6 @@
   font-weight: 300;
   font-size: 20px;
   margin: 20px;
-  text-align: justify;
 }
 
 .PageHeader {
@@ -228,5 +228,79 @@
 .ReusableBtn:hover {
   cursor: pointer;
   border-color: rgba(0, 0, 0, 0.1);
+  background-color: rgb(250, 250, 250);
+}
+
+.ContactForm {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Form {
+  max-width: 350px;
+  width: 100%;
+  height: 40px;
+}
+
+.Form:hover {
+  cursor: pointer;
+}
+
+.Form::-moz-placeholder, .message::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.Form::placeholder, .message::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 20px;
+}
+
+input {
+  border: 2px solid rgb(250, 140, 140);
+}
+
+.message {
+  max-width: 350px;
+  width: 100%;
+  height: 200px;
+  border: 2px solid rgb(250, 140, 140);
+}
+
+.Check-Terms {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 20px;
+}
+
+#check {
+  width: 30px;
+  height: 30px;
+}
+
+.tic-box {
+  height: 75px;
+  max-width: 350px;
+  width: 100%;
+  padding: 5px;
+}
+
+.Link-Terms {
+  color: black;
+}
+
+.Link-Terms:hover {
+  cursor: pointer;
+  font-size: 25px;
   background-color: rgb(250, 250, 250);
 }/*# sourceMappingURL=index.css.map */
