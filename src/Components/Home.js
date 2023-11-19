@@ -1,6 +1,9 @@
 import ReusableButton from "./ReusableButton";
+import {useState, useEffect} from "react";
 
 const Home = () => {
+
+
 
     const BoxOne = () => {
         <div className="offer-box">
