@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
@@ -7,28 +8,18 @@ import Contact from "./Components/Contact";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
 
-    <Header></Header>
-    <Home></Home>
-    <About></About>
-    <Contact></Contact>
-    <Footer></Footer>
+      <div><Header /></div>
+      <Routes>
+        <Route path="/" element=<Home />/>
+        <Route path="/About" element=<About />/>
+        <Route path="/Contact" element=<Contact />/>
+      </Routes>
+      <div><Footer /></div>
 
-
-    </div>
+    </BrowserRouter>
   );
 }
 
 export default App;
-
-
-
-/* 
-Also test in your App.js how you can 
-display your different pages and components.
-Think about if they display as you wish
-or if you actually have to think a
-little bit about how you structure 
-your components in your App.js?
- */

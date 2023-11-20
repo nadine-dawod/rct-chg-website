@@ -1,7 +1,7 @@
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
-
+import {Link} from "react-router-dom";
 
 
 const Header = () => {
@@ -14,9 +14,9 @@ const Header = () => {
         <nav className="Nav-Bar">
 
             <ul className="Nav-List">
-                <li className="Nav-Link"><a href="./Home">Home</a></li>
-                <li className="Nav-Link"><a href="./About">About</a></li>
-                <li className="Nav-Link"><a href="./Contact">Contact</a></li>
+                <li className="Nav-Link"><Link className="Link" to="/">Home</Link></li>
+                <li className="Nav-Link"><Link className="Link" to="/About">About</Link></li>
+                <li className="Nav-Link"><Link className="Link" to="/Contact">Contact</Link></li>
             </ul>
         </nav>
         </header>

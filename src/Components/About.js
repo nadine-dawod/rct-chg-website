@@ -7,7 +7,6 @@ const About = () => {
 
     <div className="PageBodies">
 
-    <Header></Header>
 
         <img src={NadinePicture} className="ProfilePicture" alt="Profile Pictue of Nadine" />
 
@@ -34,7 +33,6 @@ const About = () => {
        <p className="CV-Para 3">Curabitur posuere gravida nulla, ac convallis eros convallis ut. Curabitur posuere gravida nulla, ac convallis eros convallis ut.</p>
         </div> 
 
-    <Footer></Footer>    
     </div>
     )
 }
