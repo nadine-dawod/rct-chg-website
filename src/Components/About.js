@@ -1,6 +1,4 @@
 import NadinePicture from "../NadinePicture.jpeg";
-import Header from "./Header";
-import Footer from "./Footer";
 
 const About = () => {
     return (

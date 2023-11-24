@@ -31,8 +31,15 @@
     @include logo;
   }
 
-  .Icon-Link {
-    @include headerfooter-links;
-    text-decoration: none;
-    padding: 20px;
+  .Icon {
+    width: 25px;
+    height: 25px;
+    color: rgb(0,0,0,0.7);
+  }
+
+  .Icon:hover {
+    background-color: rgb(250,250,250);
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
   }

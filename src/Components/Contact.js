@@ -1,6 +1,4 @@
 import ContactForm from "./ContactForm";
-import Header from "./Header";
-import Footer from "./Footer";
 
 const Contact = () => {
     return (
