@@ -1,7 +1,7 @@
 {
   "name": "rct-chg-website",
   "version": "0.1.0",
-  "homepage": "http://nadine-dawod.github.io/rct-chg-website",
+  "homepage": "http://nadine-dawod.github.io/rct-chg-website/",
   "private": true,
   "dependencies": {
     "-": "^0.0.1",
