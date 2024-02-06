@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/rct-chg-website/About/static/css/main.f8dfb7c5.css",
+    "main.js": "/rct-chg-website/About/static/js/main.22bd3701.js",
+    "static/js/787.76145f0a.chunk.js": "/rct-chg-website/About/static/js/787.76145f0a.chunk.js",
+    "static/media/NadinePicture.jpeg": "/rct-chg-website/About/static/media/NadinePicture.c1fcd8d92a720dd413e2.jpeg",
+    "index.html": "/rct-chg-website/About/index.html",
+    "main.f8dfb7c5.css.map": "/rct-chg-website/About/static/css/main.f8dfb7c5.css.map",
+    "main.22bd3701.js.map": "/rct-chg-website/About/static/js/main.22bd3701.js.map",
+    "787.76145f0a.chunk.js.map": "/rct-chg-website/About/static/js/787.76145f0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8dfb7c5.css",
+    "static/js/main.22bd3701.js"
+  ]
+}
