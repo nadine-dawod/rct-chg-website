@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
@@ -9,7 +9,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
 
       <div><Header /></div>
       <Routes>
@@ -19,7 +19,7 @@ function App() {
       </Routes>
       <div><Footer /></div>
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
